@@ -10,7 +10,7 @@ $(window).on('load', function() {
 /* ================================
 |   |   |   Team
 ================================ */
-$(function () {
+$(function() {
     $("#team-members").owlCarousel({
         items: 2,
         autoplay: true,
@@ -21,4 +21,25 @@ $(function () {
         dots: false,
         navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
     });
+});
+
+
+/* ================================
+|   |   |   Progress Bars
+================================ */
+$(function() {
+
+    $("#progress-elements").waypoint(function() {
+
+        $(".progress-bar").each(function() {
+
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            }, 1000);
+        });
+        this.destroy();
+    }, {
+        offset: 'bottom-in-view'
+    });
+
 });
