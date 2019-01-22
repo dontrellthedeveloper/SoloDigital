@@ -43,3 +43,16 @@ $(function() {
     });
 
 });
+
+
+/* ================================
+|   |   |   Progress Bars
+================================ */
+
+$(function () {
+
+    $("#services-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+
+});
