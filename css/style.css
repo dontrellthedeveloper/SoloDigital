@@ -617,11 +617,43 @@ ul.social-list li:nth-child(3) a:hover {
     margin: 0;
 }
 
+
+.portfolio-item {
+    overflow: hidden;
+}
+
+
 .center-pics {
     text-align: center;
 }
 
 
+.margin-bottom-g {
+    margin-bottom: 10px;
+}
+
+.no-underline a,
+.no-underline {
+    text-underline: none;
+}
+
+
+/* Zoom Effect */
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;transition:
+    transform .5s ease, -webkit-tranform .5s
+    ease;
+}
+
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 
 
