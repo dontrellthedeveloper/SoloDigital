@@ -1152,6 +1152,16 @@ ul.office-details li i {
 }
 
 
+/* ================================
+| | |  Google Map
+================================ */
+#map {
+    height: 600px;
+}
+
+#google-map .row {
+    display: block !important;
+}
 
 
 
