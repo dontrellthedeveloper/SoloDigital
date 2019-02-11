@@ -279,7 +279,7 @@ $(function () {
 $(function() {
 
     $("#mobile-nav-open-btn").click(function() {
-       $("#mobile-nav").css("height", "100%");
+        $("#mobile-nav").css("height", "100%");
     });
 
     $("#mobile-nav-close-btn, #mobile-nav a").click(function() {
